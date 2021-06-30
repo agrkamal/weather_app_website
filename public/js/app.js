@@ -1,5 +1,3 @@
-console.log('Java Script File');
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#error')
