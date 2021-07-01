@@ -16,7 +16,7 @@ const fetchWeather = (location) => {
                 messageOne.textContent = `${data.error}`
             } else {
                 messageOne.textContent = ''
-                messagetwo.textContent = `It is ${data.temp} degress celcius in ${data.loc} and condition is ${data.des}.`
+                messagetwo.textContent = `It is ${data.temp} degress celcius in ${data.loc}.\nFeels like ${data.feels_like} degress celcius and condition is ${data.des}.`
             }
         })
 

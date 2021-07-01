@@ -14,7 +14,9 @@ const forecast = (lat, lon, location, callback) => {
             callback(undefined, {
                 loc: location,
                 temp: body.main.temp,
-                des: body.weather[0].description
+                des: body.weather[0].description,
+                feels_like: body.main.feels_like
+                
             }
             )
         }
